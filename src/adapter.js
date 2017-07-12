@@ -22,8 +22,6 @@ class LiquidAdapter extends Fractal.Adapter {
     return new Promise(function(resolve, reject) {
       let tplPath = Path.relative(self._source.fullPath, path);
 
-      console.log("Fullpath:", tplPath);
-
       try {
         //let template = self.engine.liquid
         resolve(self.liquid().renderFile(path, { foo: "baar" }));
