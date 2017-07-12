@@ -24,7 +24,7 @@ class LiquidAdapter extends Fractal.Adapter {
 
       try {
         //let template = self.engine.liquid
-        resolve(self.liquid().renderFile(path, { foo: "baar" }));
+        resolve(self.liquid().renderFile(path, context));
       } catch (e) {
         reject(new Error(e));
       }
