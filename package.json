@@ -1,0 +1,19 @@
+{
+  "name": "frctl-liquid",
+  "version": "0.1.0",
+  "description": "Adapter for using Shopify's Liquid with Fractal",
+  "main": "index.js",
+  "author": "Luke Watts <luke@thisis.la> (http://thisis.la/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisislawatts/frctl-liquid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thisislawatts/frctl-liquid/issues"
+  },
+  "dependencies": {
+    "@frctl/fractal": "^1.1.4",
+    "shopify-liquid": "^1.7.9"
+  }
+}
