@@ -1,6 +1,6 @@
 {
   "name": "frctl-liquid",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Adapter for using Shopify's Liquid with Fractal",
   "main": "index.js",
   "author": "Luke Watts <luke@thisis.la> (http://thisis.la/)",
