@@ -35,7 +35,7 @@ class LiquidAdapter extends Fractal.Adapter {
 module.exports = function(config) {
   return {
     register(source, app) {
-      const Liquid = require("shopify-liquid");
+      const Liquid = require("liquidjs");
       const engine = Liquid();
       const adapter = new LiquidAdapter(Liquid, source, app, config);
 

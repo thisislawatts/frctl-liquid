@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "@frctl/fractal": "^1.1.4",
-    "shopify-liquid": "^1.7.9"
+    "liquidjs": "^1.9.1"
   }
 }
