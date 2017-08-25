@@ -13,7 +13,7 @@
     "url": "https://github.com/thisislawatts/frctl-liquid/issues"
   },
   "dependencies": {
-    "@frctl/fractal": "^1.1.4",
-    "liquidjs": "^1.9.1"
+    "@frctl/fractal": "^1.1.5",
+    "liquidjs": "^1.9.4"
   }
 }
