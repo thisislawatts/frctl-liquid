@@ -1,4 +1,102 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.7.1
 ignore: {}
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - '@frctl/fractal > browser-sync > socket.io > socket.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > connect > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > socket.io > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > socket.io > engine.io > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > engine.io > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > engine.io > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > socket.io > socket.io-adapter > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-adapter > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-adapter > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > socket.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > socket.io-client > engine.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io-client > engine.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io-client > engine.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > socket.io > socket.io-client > engine.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-client > engine.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-client > engine.io-client > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > socket.io > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > socket.io-client > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io-client > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io-client > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > socket.io > socket.io-client > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-client > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-client > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug':
+        patched: '2017-09-27T00:49:17.645Z'
