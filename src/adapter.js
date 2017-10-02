@@ -23,8 +23,13 @@ class LiquidAdapter extends Fractal.Adapter {
       let tplPath = Path.relative(self._source.fullPath, path);
 
       try {
-        //let template = self.engine.liquid
-        resolve(self.liquid().renderFile(path, context));
+        resolve(
+          self
+            .liquid({
+              root: [".", self._source.fullPath]
+            })
+            .renderFile(path, context)
+        );
       } catch (e) {
         reject(new Error(e));
       }
@@ -36,11 +41,8 @@ module.exports = function(config) {
   return {
     register(source, app) {
       const Liquid = require("liquidjs");
-      const engine = Liquid();
       const adapter = new LiquidAdapter(Liquid, source, app, config);
-
       adapter.setHandlePrefix(config.handlePrefix);
-
       return adapter;
     }
   };
