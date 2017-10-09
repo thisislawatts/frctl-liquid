@@ -13,13 +13,14 @@
     "url": "https://github.com/thisislawatts/frctl-liquid/issues"
   },
   "dependencies": {
-    "@frctl/fractal": "^1.1.5",
-    "liquidjs": "^1.9.4",
-    "snyk": "^1.41.1"
+    "liquidjs": "^1.9.4"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
-  "snyk": true
+  "snyk": true,
+  "devDependencies": {
+    "snyk": "^1.42.4"
+  }
 }
